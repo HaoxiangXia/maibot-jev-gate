@@ -1,0 +1,12 @@
+# 运行时生成的配置文件及备份（不提交至仓库，包含个人 API Key）
+config.toml
+config_back/
+
+# Python 缓存与临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 本地维护与提交模板（不对外发布）
+ISSUE_AND_PR_TEMPLATES.md

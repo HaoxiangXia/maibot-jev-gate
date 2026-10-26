@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Jev 门控预判插件 (Jev Gate Plugin)",
+  "description": "基于 TypeSafe Jev (System One) 结构化决策模型的群聊门控插件：支持多配置预设无损切换、模糊区间选择性调用、置信度概率融合与静默已读游标推进（consume）。",
+  "author": {
+    "name": "HaoxiangXia",
+    "url": "https://github.com/HaoxiangXia"
+  },
+  "license": "GPL-v3.0-or-later",
+  "urls": {
+    "repository": "https://github.com/HaoxiangXia/maibot-jev-gate",
+    "homepage": "https://github.com/HaoxiangXia/maibot-jev-gate",
+    "documentation": "https://github.com/HaoxiangXia/maibot-jev-gate/blob/main/README.md",
+    "issues": "https://github.com/HaoxiangXia/maibot-jev-gate/issues"
+  },
+  "host_application": {
+    "min_version": "1.3.0",
+    "max_version": "1.3.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [
+    {
+      "type": "python_package",
+      "name": "httpx",
+      "version_spec": ">=0.24.0"
+    }
+  ],
+  "capabilities": [
+    "config.get"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "id": "community.jev-gate"
+}
